@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+      "@@/*": [".dumi/tmp/*"],
+      "tree-visualization": ["src"],
+      "tree-visualization/*": ["src/*", "*"]
+    },
+    "types": ["@emotion/react/types/css-prop"]
+  },
+  "include": [".dumi/**/*", ".dumirc.ts", "src/**/*"]
+}
